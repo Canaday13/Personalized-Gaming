@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 <title> Contact Us: </title>
 </head>
@@ -6,10 +7,14 @@
 	<h1>Please fill out the below form with any questions or concerns.</h1>
 	</header>
 <main>
-	<div class="row">
+	<div class="row" style="background-color:#656D4A;">
 		<h1>Full Name:</h1>
-		<h2>Email Address:</h2>
-		<h3>Message:</h3>
+		</div>
+	<div class="row" style="background-color:#656D4A;">
+		<h1>Email Address:</h1>
+		</div>
+	<div class="row" style="background-color:#656D4A;">
+		<h1>Message:</h1>
 		</div>
 </main>
 </body>

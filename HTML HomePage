@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
 <title> Personalize Your Gaming Setup! </title>
 </head>
@@ -7,11 +8,19 @@
 	<h2>We have options for everything you can think of!</h2>
 	</header>
 <main>
-	<div class="row">
-		<h1>From the Keyboard,</h1> <img src="keyboard.jpg">
-		<h2>Gaming Mouse,</h2> <img src="gaming-mouse.jpg">
-		<h3>To the mouse pad,</h3> <img src="gaming-mousepad.jpg">
-		<h4>And even the desk!</h4> <img src="gaming-desk.jpg">
+	<div class="column" style="background-color:#C2C5AA;"> 
+		<img src="gaming_keyboard.jpg" alt="keyboard">
+		<img src="gaming_mouse.jpg" alt="gaming mouse">
+		</div>
+	<div class="column" style="background-color:#C2C5AA;">
+		<p>From the Keyboard,</p>
+		<p>Gaming Mouse,</p>
+		<p>To the mouse pad,</p>
+		<p>And even the desk!</p>
+		</div>
+	<div class="column" style="background-color:#C2C5AA;">
+		<img src="gaming_mousepad.jpg" alt="gaming mousepad">
+		<img src="gaming_desk.jpg" alt="gaming desk">
 		</div>
 </main>
 <footer>

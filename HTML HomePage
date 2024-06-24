@@ -1,0 +1,20 @@
+<head>
+<title> Personalize Your Gaming Setup! </title>
+</head>
+<body>
+	<header> 
+	<h1> Have you ever wanted your own completely personalized gaming setup? </h1>
+	<h2>We have options for everything you can think of!</h2>
+	</header>
+<main>
+	<div class="row">
+		<h1>From the Keyboard,</h1>
+		<h2>Gaming Mouse,</h2>
+		<h3>To the mouse pad,</h3>
+		<h4>And even the desk!</h4>
+		</div>
+<footer>
+	<a href="#">Contact Us</a><a href="#">HomePage</a>
+	<a href="#">Products</a><a href="#">About</a>
+</footer>
+</body>

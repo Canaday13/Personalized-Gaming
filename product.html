@@ -1,11 +1,34 @@
 <!DOCTYPE html>
+<html>
+<body style="background-color:#7F4F24;">
 <head>
   <title> Products </title>
+	<style>
+		.center {
+  text-align: center;
+  color: #7F4F24;
+}
+		.column {
+  float: left;
+  width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+iframe{
+    margin:100px;
+}
+p{
+	margin:100px;
+}
+		</Style>
 </head>	
 <div class="column" style="background-color:#B6AD90;">
   </div>
 <main>
-	<div class="column" style="background-color:#7F4F24;"> 
+	<div id="column1" style="float:left; margin:0; width:33%;" style="background-color:#7F4F24;"> 
 	<p>Computer</p>
     <p>PC Cases</p>
     <p>RAM</p>
@@ -29,7 +52,7 @@
 	 <img src="pc_case.jpg" alt="pc case">
     	<img src="gaming_monitor.jpg" alt="gaming monitor">
   </div>
-	<div class="column" style="background-color:#7F4F24;">
+	<div id="column2" style="float:left; margin:0;width:33%;" style="background-color:#7F4F24;">
    <p>Keyboard</p>
     <br><p>Membrane</p>
     <p>Mechanical</p>
@@ -43,10 +66,10 @@
      <p>L-Shape</p>
  </div>
 <div class="column">
-    <img src="gaming_keyboard.jpg" alt="gaming keyboard">
-    <img src="gaming_desk.jpg" alt="gaming desk">
+    <iframe src=https://private-user-images.githubusercontent.com/173724982/344475026-eee08404-9ad8-49bd-af01-72d3bf3dd773.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTUzMjksIm5iZiI6MTcyMDg5NTAyOSwicGF0aCI6Ii8xNzM3MjQ5ODIvMzQ0NDc1MDI2LWVlZTA4NDA0LTlhZDgtNDliZC1hZjAxLTcyZDNiZjNkZDc3My5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxM1QxODIzNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YzUxNjNjNDE2NGQ0NGY1YTI5ZTczYWMwN2NkNmU5NzdhZjNlNjdmNDVkY2I5MDE2MmNiM2IxNGY5MjhjYjIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.0v7TI8aeK7q-Wy-C5s2WuKcEVmjUvGxRCOkhNI_RU80></iframe>
+    <iframe src=https://private-user-images.githubusercontent.com/173724982/344475043-9354f74c-7539-48a6-bfb3-eae092a85952.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTUzMjksIm5iZiI6MTcyMDg5NTAyOSwicGF0aCI6Ii8xNzM3MjQ5ODIvMzQ0NDc1MDQzLTkzNTRmNzRjLTc1MzktNDhhNi1iZmIzLWVhZTA5MmE4NTk1Mi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxM1QxODIzNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05NTI4NDNiZDZmNWRkYWFlMTBlMTc0NDYyNTFkZGRiNmM0YzYxYTNiMGYyODFjZjc4OWE1ODk0MzIxYjE5OWJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Ri5Yyo1oMtq9O_OiyEZse6YIYI-bP1PHwI1wIcXoI-A></iframe>
    </div>
-  <div class="column" style="background-color:#7F4F24;">
+  <div id="column3" style="float:left; margin:0;width:33%;" style="background-color:#7F4F24;">
    <p>Mouse</p>
    <br><p>Wire</p>
     <p>Wireless</p>
@@ -61,8 +84,8 @@
     <p>Lights</p>
   </div>
 <div class="column">
-    <img src="gaming_mouse.jpg" alt="gaming mouse">
-    <img src="gaming_mousepad.jpg" alt="gaming mousepad">
+    <iframe src=https://private-user-images.githubusercontent.com/173724982/344475041-2d80bda1-93d6-49fc-9cfe-fa8c130d35d5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTUzMjksIm5iZiI6MTcyMDg5NTAyOSwicGF0aCI6Ii8xNzM3MjQ5ODIvMzQ0NDc1MDQxLTJkODBiZGExLTkzZDYtNDlmYy05Y2ZlLWZhOGMxMzBkMzVkNS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxM1QxODIzNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wYjFmNjZlYTIyNTg3ZWQ0MGQyZWJiNWQ0Y2NiMGM3NmFjNmM3ZTg4ZmZjYTA5MjZhZmM3NWJhNDJkZGM0NmVlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.LasPO0eatnwjg2uK7pybNC5CAd0-RffDeZJcvuDKXYw></iframe>
+    <iframe src=https://private-user-images.githubusercontent.com/173724982/344475042-71d01889-f953-4cd5-babf-49dcdbd60d86.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjA4OTUzMjksIm5iZiI6MTcyMDg5NTAyOSwicGF0aCI6Ii8xNzM3MjQ5ODIvMzQ0NDc1MDQyLTcxZDAxODg5LWY5NTMtNGNkNS1iYWJmLTQ5ZGNkYmQ2MGQ4Ni5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNzEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDcxM1QxODIzNDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWI1N2JhMDcxZGM2NDk2NjA2Y2U2ODhlMDZkZTNiMTJjMjYzNDNiMjAxNmZmMWU1MzUyNGQ4ZTA1NTM0ZmVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.JFx5wxdVzxt1rMCvKSp0V_NsVu0n0_wr7gAXZkz2DYU></iframe>
       </div>
   </main>
 <footer>
@@ -71,3 +94,4 @@
 	<a href="#">Products</a><a href="#">About</a>
   </div>
 </footer>
+		</html>

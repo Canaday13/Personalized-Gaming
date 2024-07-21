@@ -21,18 +21,25 @@ body {
 .grind-container-text {
     background-color: #7f4f24;
 }
-
-/* .column {
+.grind-container{
+    grid-template-columns: auto auto auto auto;
+}
+.column {
     float: left;
     width: 33.33%;
-} */
+} 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-iframe {
-    margin: 100px;
+img {
+    max-width: 70%;
+}
+@media screen and (min-width: 500px) {
+img {
+    max-width: 100%;
+}
 }
 p {
     margin: 100px;
@@ -40,6 +47,8 @@ p {
 
 .footer-nav {
     width: 50%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .footer-nav-links {

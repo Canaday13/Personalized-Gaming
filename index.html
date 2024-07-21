@@ -23,8 +23,17 @@
             </div>
             <div id="grid-container">
                 <div class="grid-container-images">
-                    <img src="./assets/keyboard.jpg" alt="keyboard" />
-                    <img src="./assets/gaming mouse.jpg" alt="gaming mouse" />
+                    <img srcset="./assets/keyboard large.jpg 300w ./assets/keyboard small.jpg 150w"
+                    sizes="(max-width: 600px) 500px,
+                    1000px"
+                    src="./assets/keyboard large.jpg"
+                     alt="keyboard" />
+                    <div class="grid-container-images"></div>
+                    <img srcset="./assets/gaming mouse large.jpg 225w ./assets/gaming mouse small.jpg 150w"
+                    sizes="(max-width: 600px) 500px,
+                    1000px"
+                    src="./assets/gaming mouse large.jpg"
+                     alt="gaming mouse" />
                 </div>
                 <div  id="grid-container-text">
                     <p class="center">From the Keyboard,</p>
@@ -33,13 +42,21 @@
                     <p class="center">And even the desk!</p>
                 </div>
                 <div class="grid-container-images">
-                    <img src="./assets/gaming mousepad.jpg" alt="gaming mousepad" />
-                    <img src="./assets/gaming desk.jpg" alt="gaming desk" />
-                </div>
-            </div>
+                    <img srcset="./assets/gaming mousepad large.jpg 220w ./assets/gaming mousepad small.jpg 150w"
+                    sizes="(max-width: 600px) 500px,
+                    1000px"
+                    src="./assets/gaming mousepad large.jpg"
+                    alt="gaming mousepad" /> 
+                    <div class="grid-container-images">
+                    <img srcset="./assets/gaming desk large.jpg 268w ./assets/gaming mousepad small.jpg 150w"
+                    sizes="(max-width: 600px) 500px,
+                    1000px"
+                    src="./assets/gaming desk large.jpg"
+        </div>
+        </div>
         </main>
         <footer>
-            <div class="footer-nav">
+            <div class="footer">
                 <ul class="footer-nav-links">
                     <!-- TODO fix all links like the product page -->
                     <li><a href="contact.html">Contact Us</a></li>

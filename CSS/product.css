@@ -19,14 +19,29 @@ body {
     float: center;
     width: 16.67%;
 }
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+ }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+img {
+    max-width: 70%;
+}
+@media screen and (min-width: 500px) {
+img {
+    max-width: 100%;
+}
+}
 
 .footer-nav {
     width: 50%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .footer-nav-links {
@@ -46,8 +61,8 @@ body {
 @media only screen and (min-width: 768px) {
     #grid-container {
         display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        gap: 300px;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
     }
 
     #grid-container-text {

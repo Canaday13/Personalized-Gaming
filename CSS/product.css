@@ -56,6 +56,10 @@ img {
     color: #7f4f24;
 }
 
+.responsive a:not(.icon) {
+    display: block;
+   }
+   
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
@@ -70,6 +74,12 @@ img {
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 500px) {
+    .icon {
+    display: none;
+    }
+    }
 
 /* Mobile */
 @media only screen and (min-width: 600px) {
@@ -90,3 +100,15 @@ img {
         gap: 10px; 
     }
 }
+
+nav a:not(.icon) {
+    display: none;
+    }
+    @media screen and (min-width: 500px) {
+    .icon {
+    display: none;
+    }
+     nav a:not(.icon) {
+     display: inline;
+     }
+    }

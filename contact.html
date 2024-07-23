@@ -2,6 +2,9 @@
 <html>
 <body style="background-color:#656D4A;">
 <head>
+  <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/hamburger menu.jpg" />
 <title> Contact Us: </title>
 <style>
 	header {
@@ -22,6 +25,45 @@ margin: 8px 0;
 padding: 60px 20px;
 margin: 8px 0;
 }
+.footer-nav {
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-nav-links li a {
+    text-decoration: none;
+    color: #C2C5AA;
+}
+
+.responsive a:not(.icon) {
+    display: block;
+   }
+
+   @media screen and (min-width: 500px) {
+    .icon {
+    display: none;
+    }
+    }
+
+    nav a:not(.icon) {
+    display: none;
+    }
+    @media screen and (min-width: 500px) {
+    .icon {
+    display: none;
+    }
+     nav a:not(.icon) {
+     display: inline;
+     }
+    }
 </style>
 </head>
 	<header>
@@ -41,6 +83,33 @@ margin: 8px 0;
 		<p><label for="message">Message:</label></p>
 		<input type="text1" id="message" name="message" size="50" height="60">
 		</div>
+		<footer>
+      <script>
+        function openMobileNavigationMenu() {
+         var x = document.getElementById("navigation");
+         if (x.className === "") {
+         x.className += "responsive";
+         } else {
+         x.className = "";
+         }
+        }
+        </script>
+    <nav>
+        <a class="icon">
+        <I class="hamburger menu"></I>
+        </a>
+        <a class="icon" onclick="openMobileNavigationMenu()">
+            <i class="hamburger menu"></i>
+            </a>
+            <div class="footer">
+                <ul class="footer-nav-links">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html">HomePage</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </footer>
 </main>
 </body>
 </html>

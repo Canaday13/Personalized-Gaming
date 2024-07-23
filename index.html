@@ -2,10 +2,10 @@
 <html lang="en-US">
     <head>
 		<meta charset="UTF-8">
-		<!-- You need this for media queary -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Personalize Your Gaming Setup!</title>
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./assets/hamburger menu.jpg" />
     </head>
     <body>
         <main>
@@ -56,9 +56,27 @@
         </div>
         </main>
         <footer>
+            <script>
+                function openMobileNavigationMenu() {
+                 var x = document.getElementById("navigation");
+                 if (x.className === "") {
+                 x.className += "responsive";
+                 } else {
+                 x.className = "";
+                 }
+                }
+                </script>
+            <nav>
+                <a class="icon">
+                <I class="hamburger menu"></I>
+                </a>
+                <a class="icon" onclick="openMobileNavigationMenu()">
+                    <i class="hamburger menu"></i>
+                    </a>
+                   
+            </nav>
             <div class="footer">
                 <ul class="footer-nav-links">
-                    <!-- TODO fix all links like the product page -->
                     <li><a href="contact.html">Contact Us</a></li>
                     <li><a href="index.html">HomePage</a></li>
                     <li><a href="product.html">Products</a></li>

@@ -61,7 +61,6 @@ img {
    }
    
 
-/* Desktop */
 @media only screen and (min-width: 768px) {
     #grid-container {
         display: grid;
@@ -81,7 +80,6 @@ img {
     }
     }
 
-/* Mobile */
 @media only screen and (min-width: 600px) {
     #grid-container-text {
         display: flex;
